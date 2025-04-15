@@ -46,7 +46,7 @@ def brute_force_word(file_path, wordlist_path):
 # =============================
 
 if __name__ == "__main__":
-    file_path = "ГОЙДА.docx"          # Путь к защищённому файлу
-    wordlist_path = "asswords.txt"      # Путь к словарю с паролями
+    file_path = "example.docx"          # Путь к защищённому файлу
+    wordlist_path = "passwords.txt"      # Путь к словарю с паролями
 
     brute_force_word(file_path, wordlist_path)
